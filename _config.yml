@@ -1,0 +1,9 @@
+name: 'El Fantasma de Heredia'
+description: ***
+
+baseurl: '/fantasma'
+url: 'https://tasken.github.io'
+
+# Sass
+sass:
+  style: :compressed
