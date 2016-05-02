@@ -1,8 +1,11 @@
-name: 'El Fantasma'
+# Entorno
+timezone: America/Argentina/Buenos_Aires
+
+title: 'El Fantasma'
 description: 'Desc fantasma'
 
-baseurl: '/fantasma'
 url: 'https://tasken.github.io'
+baseurl: '/fantasma'
 
 sass:
   style: :compressed
