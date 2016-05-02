@@ -1,0 +1,19 @@
+body {
+	color: #777;
+	font-family: monospace;
+	background-color: ghostwhite;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+#menu {
+	background-color: inherit;
+}
+
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
+	background: initial;
+}
