@@ -4,6 +4,5 @@ description: 'Desc fantasma'
 baseurl: '/fantasma'
 url: 'https://tasken.github.io'
 
-# Sass
 sass:
   style: :compressed
