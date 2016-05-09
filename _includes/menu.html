@@ -6,14 +6,16 @@
 <div id="menu">
 	<div class="pure-menu">
 	<img src="//placehold.it/150x75">
+
 		<a class="pure-menu-heading" href="#">Head</a>
+
 		<ul class="pure-menu-list">
-			<li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-			<li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
-			<li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-				<a href="#" class="pure-menu-link">Services</a>
+			{% assign pages = site.pages | sort: 'weight' %} 
+			{% for p in pages %}
+			<li class="pure-menu-item{% if p.url == page.url %} pure-menu-selected{% endif %}">
+				<a class="pure-menu-link" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
 			</li>
-			<li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+			{% endfor %}
 		</ul>
 	</div>
 </div>
