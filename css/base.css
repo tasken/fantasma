@@ -17,3 +17,15 @@ body {
 #menu .pure-menu li a:focus {
 	background: initial;
 }
+
+.content > .pure-g {
+	margin-top: 1em;
+}
+
+@media (min-width: 48em) {
+
+	div#layout.active #main {
+		opacity: .2;
+	}
+
+}
