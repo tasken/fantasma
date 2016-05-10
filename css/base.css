@@ -22,9 +22,9 @@ body {
 	margin-top: 1em;
 }
 
-@media (min-width: 48em) {
+@media (max-width: 48em) {
 
-	div#layout.active #main {
+	#layout.active #main {
 		opacity: .2;
 	}
 
