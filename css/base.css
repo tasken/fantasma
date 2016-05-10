@@ -4,15 +4,6 @@ body {
 	background-color: ghostwhite;
 }
 
-.header {
-	margin: 0 auto;
-	max-width: 800px;
-}
-
-#menu {
-	background-color: inherit;
-}
-
 #menu a.img {
     padding: 0;
 }
@@ -22,8 +13,22 @@ body {
 	background: initial;
 }
 
+.header {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+h1:after {
+	content: " ";
+	display: block;
+	width: 150px;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 4px solid #333;
+}
+
 .content > .pure-g {
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 @media (max-width: 48em) {
