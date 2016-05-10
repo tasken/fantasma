@@ -13,6 +13,10 @@ body {
 	background-color: inherit;
 }
 
+#menu a.img {
+    padding: 0;
+}
+
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
 	background: initial;
