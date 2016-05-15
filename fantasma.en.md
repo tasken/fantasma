@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.en
 title: 'El Fantasma'
 weight: 1
 lang: en

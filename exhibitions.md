@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.en
 title: 'Exhibitions'
 weight: 3
 lang: en

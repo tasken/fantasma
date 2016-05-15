@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.en
 title: 'Projects'
 weight: 2
 lang: en

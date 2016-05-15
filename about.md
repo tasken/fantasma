@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.en
 title: 'About'
 weight: 4
 lang: en
