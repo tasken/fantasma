@@ -2,6 +2,8 @@
 layout: default
 title: 'Proyectos'
 weight: 2
+lang: es
+ref: proyectos
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit egestas sem vitae porttitor. Sed at ex lorem. In elit enim, ultricies in mauris sit amet, interdum dignissim urna. Praesent at dui malesuada, fermentum odio eget, pretium quam. Nunc in ipsum sed ante placerat placerat fermentum nec ex. Quisque ac rutrum mauris, volutpat maximus turpis. Curabitur volutpat posuere tincidunt. Nam nec arcu nisl.  

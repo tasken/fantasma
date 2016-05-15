@@ -31,6 +31,11 @@ h1:after {
 	margin-top: 1rem;
 }
 
+.en:lang(en),
+.es:lang(es) {
+	font-weight: bold;
+}
+
 @media (max-width: 48em) {
 
 	#layout.active #main {

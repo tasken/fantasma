@@ -2,6 +2,8 @@
 layout: default
 title: 'El Fantasma'
 weight: 1
+lang: es
+ref: el_fantasma
 ---
 
 <div class="pure-g">

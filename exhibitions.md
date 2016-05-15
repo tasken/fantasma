@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 'Exposiciones'
+title: 'Exhibitions'
 weight: 3
-lang: es
+lang: en
 ref: exposiciones
 ---
 
