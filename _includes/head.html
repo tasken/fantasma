@@ -17,12 +17,12 @@
 
 	{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 	{% for post in posts %}
-		<link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+		<link rel="alternate" hreflang="{{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}" />
 	{% endfor %}
 	
 	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 	{% for page in pages %}
-		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.baseurl }}{{ page.url }}" />
 	{% endfor %}
 
 </head>
