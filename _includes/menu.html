@@ -10,7 +10,7 @@
 		<a class="pure-menu-heading" href="#">Head</a>
 
 		<ul class="pure-menu-list">
-			{% assign pages = site.pages | where:"lang", page.lang | sort: 'weight' %} 
+			{% assign pages = site.pages | where: "lang", page.lang | sort: 'weight' %} 
 			{% for p in pages %}
 			<li class="pure-menu-item{% if p.url == page.url %} pure-menu-selected{% endif %}">
 				<a class="pure-menu-link" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
@@ -18,21 +18,17 @@
 			{% endfor %}
 		</ul>
 
-		<ul class="pure-menu-list">
-			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+		<div class="lang-list">
+			{% assign posts = site.posts | where: "ref", page.ref | sort: 'lang' %}
 			{% for post in posts %}
-			<li class="pure-menu-item">
-				<a href="{{ site.baseurl }}{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-			</li>
+			<a href="{{ site.baseurl }}{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
 			{% endfor %}
 
-			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+			{% assign pages = site.pages | where: "ref", page.ref | sort: 'lang' %}
 			{% for page in pages %}
-			<li class="pure-menu-item">
 				<a href="{{ site.baseurl }}{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-			</li>
 			{% endfor %}
-		</ul>
+		</div>
 
 	</div>
 </div>
