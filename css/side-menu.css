@@ -49,7 +49,7 @@ The content `<div>` is where all your content goes.
 
 .header {
 	margin: 0;
-	color: #333;
+	color: #222;
 	padding: 2.5em 2em 0;
 }
 
@@ -111,14 +111,14 @@ Add that light border to separate items into groups.
 */
 #menu .pure-menu ul,
 #menu .pure-menu .menu-item-divided {
-	border-top: 1px solid #333;
+	border-top: 1px solid #222;
 }
 /*
 Change color of the anchor links on hover/focus.
 */
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
-	background: #333;
+	background: #222;
 }
 
 /*
@@ -126,7 +126,7 @@ This styles the selected menu item `<li>`.
 */
 #menu .pure-menu-selected,
 #menu .pure-menu-heading {
-	background: #1f8dd6;
+	background: #222;
 }
 /*
 This styles a link within a selected menu item `<li>`.
@@ -142,6 +142,7 @@ This styles the menu heading.
 	font-size: 110%;
 	color: #fff;
 	margin: 0;
+	font-weight: bold;
 }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
