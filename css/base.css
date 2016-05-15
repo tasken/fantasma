@@ -21,7 +21,7 @@ body {
 h1:after {
 	content: " ";
 	display: block;
-	width: 150px;
+	width: 2.5rem;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	border-bottom: 4px solid #333;
@@ -34,6 +34,10 @@ h1:after {
 .en:lang(en),
 .es:lang(es) {
 	font-weight: bold;
+}
+
+.lang-list {
+	margin-top: 2em;
 }
 
 @media (max-width: 48em) {
