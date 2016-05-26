@@ -28,7 +28,7 @@ h1:after {
 }
 
 p.subtle {
-	color: #lightgray;
+	color: lightgray;
 }
 
 .content > .pure-g {
