@@ -32,10 +32,9 @@
 			{% endfor %}
 		</div>
 
-		<p class="small-text subtle">&copy; {{ site.time | date: '%Y' }}<br>
-		<!-- Todos los derechos reservados.<br> -->
-		Última actualización: <span title="{{ site.time }}">{{ site.time | date: '%Y.%m.%d' }}</span>
-		</p>
+		<div class="menu-footer">
+			<p class="subtle" title="{{ site.time }}">&copy; {{ site.time | date: '%Y' }}</p>
+		</div>
 
 	</div>
 </div>
