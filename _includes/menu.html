@@ -5,10 +5,11 @@
 </a>
 <div id="menu">
 	<div class="pure-menu">
-		<a href="{{ site.baseurl }}/" title="Inicio" class="img"></a>
-		<img src="{{ site.baseurl }}/img/iso.jpg">
+		<a href="{{ site.baseurl }}/" title="Inicio" class="img">
+			<img src="{{ site.baseurl }}/img/iso.jpg">
+		</a>
 
-		<a class="pure-menu-heading" href="#">Head</a>
+		{% comment %}<a class="pure-menu-heading" href="#">Head</a>{% endcomment %}
 
 		<ul class="pure-menu-list">
 			{% assign pages = site.pages | where: "lang", page.lang | sort: 'weight' %} 
@@ -30,6 +31,11 @@
 				<a href="{{ site.baseurl }}{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
 			{% endfor %}
 		</div>
+
+		<p class="small-text subtle">&copy; {{ site.time | date: '%Y' }}<br>
+		<!-- Todos los derechos reservados.<br> -->
+		Última actualización: <span title="{{ site.time }}">{{ site.time | date: '%Y.%m.%d' }}</span>
+		</p>
 
 	</div>
 </div>
