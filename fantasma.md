@@ -6,7 +6,7 @@ lang: es
 ref: el_fantasma
 ---
 
-<div class="pure-g">
+<div class="pure-g gutters">
 	<div class="pure-u-1-3"><img src="//placehold.it/600x900" class="pure-img"></div>
 	<div class="pure-u-1-3"><img src="//placehold.it/600x900" class="pure-img"></div>
 	<div class="pure-u-1-3"><img src="//placehold.it/600x900" class="pure-img"></div>
