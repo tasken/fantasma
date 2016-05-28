@@ -11,8 +11,6 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/side-menu.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/base.css">
 
-	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-
 	{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
 	{% for post in posts %}
 		<link rel="alternate" hreflang="{{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}" />
