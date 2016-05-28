@@ -14,7 +14,7 @@ permalink: /sitemaps.xml
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
         {% endfor %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
       </url>
     {% endif %}
   {% endfor %}{% endcomment %}
@@ -26,7 +26,7 @@ permalink: /sitemaps.xml
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
         {% endfor %}
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
       </url>
     {% endif %}
   {% endfor %}
