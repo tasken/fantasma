@@ -1,1 +1,14 @@
 <script src="{{ site.baseurl }}/js/ui.js"></script>
+<script src="{{ site.baseurl }}/js/blueimp-helper.js"></script>
+<script src="{{ site.baseurl }}/js/blueimp-gallery.min.js"></script>
+
+<script>
+document.getElementById('galeria').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
