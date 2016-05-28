@@ -8,13 +8,13 @@ ref: el_fantasma
 
 <div class="pure-g gutters chocolat-galeria" data-chocolat-title="set title">
 	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 1">
-		<img src="//placehold.it/300x450" class="pure-img" />
+		<img width="100" src="//placehold.it/300x450" class="pure-img" />
 	</a></div>
 	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 2">
-		<img src="//placehold.it/300x450" class="pure-img" />
+		<img width="100" src="//placehold.it/300x450" class="pure-img" />
 	</a></div>
 	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 3">
-		<img src="//placehold.it/300x450" class="pure-img" />
+		<img width="100" src="//placehold.it/300x450" class="pure-img" />
 	</a></div>
 </div>
 
