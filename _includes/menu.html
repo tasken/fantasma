@@ -5,7 +5,15 @@
 </a>
 <div id="menu">
 	<div class="pure-menu">
-		<a href="{{ site.baseurl }}/" title="Inicio" class="img">
+		<a href="
+		
+		{% if page.lang is "en" %}
+			{{ site.baseurl }}/en/
+		{% else %}
+			{{ site.baseurl }}/
+		{% endif %}
+
+		" title="Inicio" class="img">
 			<img src="{{ site.baseurl }}/img/iso.jpg">
 		</a>
 
