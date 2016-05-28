@@ -1,6 +1,3 @@
 $(document).ready(function(){
-    $('.chocolat-galeria').Chocolat({
-    	fullScreen	: false,
-    	separator2	: '| ',
-    });
+    $('.chocolat-galeria').Chocolat();
 });
