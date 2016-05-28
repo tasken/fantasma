@@ -6,16 +6,18 @@ lang: es
 ref: el_fantasma
 ---
 
-<div class="pure-g gutters chocolat-galeria" data-chocolat-title="set title">
-	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 1">
-		<img width="100" src="//placehold.it/300x450" class="pure-img" />
-	</a></div>
-	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 2">
-		<img width="100" src="//placehold.it/300x450" class="pure-img" />
-	</a></div>
-	<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 3">
-		<img width="100" src="//placehold.it/300x450" class="pure-img" />
-	</a></div>
+<div class="pure-g gutters">
+	<div class="chocolat-galeria" data-chocolat-title="set title">
+		<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 1">
+			<img width="100" src="//placehold.it/300x450" class="pure-img" />
+		</a></div>
+		<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 2">
+			<img width="100" src="//placehold.it/300x450" class="pure-img" />
+		</a></div>
+		<div class="pure-u-1 pure-u-sm-1-3"><a class="chocolat-image" href="//placehold.it/600x900" title="caption image 3">
+			<img width="100" src="//placehold.it/300x450" class="pure-img" />
+		</a></div>
+	</div>
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit egestas sem vitae porttitor. Sed at ex lorem. In elit enim, ultricies in mauris sit amet, interdum dignissim urna. Praesent at dui malesuada, fermentum odio eget, pretium quam. Nunc in ipsum sed ante placerat placerat fermentum nec ex. Quisque ac rutrum mauris, volutpat maximus turpis. Curabitur volutpat posuere tincidunt. Nam nec arcu nisl.  
