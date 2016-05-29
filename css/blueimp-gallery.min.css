@@ -15,5 +15,3 @@
 .blueimp-gallery-controls>.close,.blueimp-gallery-controls>.title{display:block;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0)}
 .blueimp-gallery>.close,.blueimp-gallery>.slides>.slide>.slide-content{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 body:last-child .blueimp-gallery>.slides>.slide-error{background-image:url(img/error.svg)}
-.blueimp-gallery>.description{position:absolute;top:30px;left:15px;color:#222;display:none;}
-.blueimp-gallery-controls>.description{display:block;}
