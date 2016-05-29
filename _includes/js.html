@@ -3,16 +3,20 @@
 <script src="{{ site.baseurl }}/js/blueimp-gallery.min.js"></script>
 
 <script>
-	blueimp.Gallery(
-		document.getElementById('galeria'),
-		{
-			onslide: function (index, slide) {
-				var text = this.list[index].getAttribute('data-description'),
-				node = this.container.find('.description');
-				node.empty();
-				if (text) {
-					node[0].appendChild(document.createTextNode(text));
-				}
-			}
-		}
-);</script>
+
+document.getElementById('galeria').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+        var text = this.list[index].getAttribute('data-description'),
+        node = this.container.find('.description');
+        node.empty();
+            if (text) {
+                node[0].appendChild(document.createTextNode(text));
+            }
+    blueimp.Gallery(links, options);
+};
+
+</script>
