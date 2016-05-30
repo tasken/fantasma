@@ -3,3 +3,10 @@
 	<p class="title"></p>
 	<a class="close">×</a>
 </div>
+
+<script src="{{ site.baseurl }}/js/blueimp-helper.js"></script>
+<script src="{{ site.baseurl }}/js/blueimp-gallery.min.js"></script>
+
+<script>
+document.getElementById("galeria").onclick=function(e){e=e||window.event;var t=e.target||e.srcElement,n=t.src?t.parentNode:t,a={index:n,event:e},l=this.getElementsByTagName("a");blueimp.Gallery(l,a)};
+</script>

@@ -4,6 +4,7 @@ title: 'El Fantasma'
 weight: 1
 lang: es
 ref: el_fantasma
+galeria: si
 ---
 
 <div class="pure-g gutters" id="galeria">

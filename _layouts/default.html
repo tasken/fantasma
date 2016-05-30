@@ -20,9 +20,13 @@
 				</div>
 			</div>
 		</div>
-		
-		{% include blueimp-gallery.html %}
+
 		{% include js.html %}
+
+		{% if page.galeria == "si" %}
+			{% include blueimp-gallery.html %}
+		{% endif %}
+
 		{% comment %}	{% include google_analytics.html %} {% endcomment %}
 
 	</body>
