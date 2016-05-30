@@ -4,7 +4,7 @@
 .blueimp-gallery-display{display:block;opacity:1}
 .blueimp-gallery>.slides{position:relative;height:100%;overflow:hidden}
 .blueimp-gallery>.slides>.slide{position:relative;float:left;height:100%;text-align:center;-webkit-transition-timing-function:cubic-bezier(.645,.045,.355,1);-moz-transition-timing-function:cubic-bezier(.645,.045,.355,1);-ms-transition-timing-function:cubic-bezier(.645,.045,.355,1);-o-transition-timing-function:cubic-bezier(.645,.045,.355,1);transition-timing-function:cubic-bezier(.645,.045,.355,1)}
-.blueimp-gallery,.blueimp-gallery>.slides>.slide>.slide-content{-webkit-transition:opacity .2s linear;-moz-transition:opacity .2s linear;-ms-transition:opacity .2s linear;-o-transition:opacity .2s linear;transition:opacity .2s linear}
+.blueimp-gallery,.blueimp-gallery>.slides>.slide>.slide-content{-webkit-transition:opacity .2s linear;-moz-transition:opacity .2s linear;-ms-transition:opacity .2s linear;-o-transition:opacity .2s linear;transition:opacity .2s linear;padding: 1em 0;}
 .blueimp-gallery>.slides>.slide-loading{background:url(img/loading.gif) center no-repeat;background-size:64px 64px}
 .blueimp-gallery>.slides>.slide-loading>.slide-content{opacity:0}
 .blueimp-gallery>.slides>.slide-error{background:url(img/error.png) center no-repeat}

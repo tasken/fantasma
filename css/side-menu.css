@@ -1,4 +1,3 @@
-.pure-img-responsive{max-width:100%;height:auto}
 #layout,#menu,#main,.menu-link{-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
 #layout{position:relative;padding-left:0}
 #layout.active #menu{left:150px;width:150px}
