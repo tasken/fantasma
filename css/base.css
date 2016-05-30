@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic,700,700italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Mono:400,400italic,700,700italic);
 
-body {
+html {
 	color: #777;
 	font-family: 'Roboto Mono', monospace;
 	background-color: ghostwhite;
+	font-size: 13px;
 }
 
 #menu a.img {
