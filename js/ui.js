@@ -1,1 +1,48 @@
-!function(e,t){function n(e,t){for(var n=e.className.split(/\s+/),i=n.length,l=0;i>l;l++)if(n[l]===t){n.splice(l,1);break}i===n.length&&n.push(t),e.className=n.join(" ")}var i=t.getElementById("layout"),l=t.getElementById("menu"),a=t.getElementById("menuLink");a.onclick=function(e){var t="active";e.preventDefault(),n(i,t),n(l,t),n(a,t)}}(this,this.document);
+(function (window, document) {
+
+	var layout = document.getElementById('layout'),
+	menu = document.getElementById('menu'),
+	menuLink = document.getElementById('menuLink'),
+	content = document.getElementById('main'),
+	body1 = document.getElementsByTagName('body')[0];
+
+	function toggleClass(element, className) {
+		var classes = element.className.split(/\s+/),
+		length = classes.length,
+		i = 0;
+
+		for(; i < length; i++) {
+			if (classes[i] === className) {
+				classes.splice(i, 1);
+				break;
+			}
+		}
+		// The className is not found
+		if (length === classes.length) {
+			classes.push(className);
+		}
+
+		element.className = classes.join(' ');
+	}
+
+	function toggleAll(e) {
+		var active = 'active';
+		var fixed = 'fixed';
+
+		e.preventDefault();
+		toggleClass(layout, active);
+		toggleClass(menu, active);
+		toggleClass(menuLink, active);
+		toggleClass(body1, fixed);
+	}
+
+	menuLink.onclick = function (e) {
+		toggleAll(e);
+	};
+
+	content.onclick = function(e) {
+		if (menu.className.indexOf('active') != -1)
+			toggleAll(e);
+	}
+
+}(this, this.document));
