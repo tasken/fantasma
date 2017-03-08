@@ -7,6 +7,11 @@ html {
 	font-size: 13px;
 }
 
+body.fixed {
+	overflow: hidden;
+	position: fixed;
+}
+
 #menu a.img {
 	padding: 0;
 }
