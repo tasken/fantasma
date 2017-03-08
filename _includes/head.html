@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/g/pure@0.6.0(pure-min.css+grids-responsive-min.css)">
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/side-menu.css">
+	{% if page.galeria == "si" %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/blueimp-gallery.min.css">
+	{% endif %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/base.css">
 
 	{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
