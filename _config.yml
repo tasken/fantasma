@@ -6,3 +6,7 @@ description: 'Desc fantasma'
 
 url: 'https://tasken.github.io'
 baseurl: '/fantasma'
+
+plugins:
+    - jekyll-tidy
+    - jekyll-sitemap
