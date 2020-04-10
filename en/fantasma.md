@@ -1,6 +1,6 @@
 ---
 layout: default.en
-title: 'El Fantasma'
+title: 'The Fantasma'
 weight: 1
 lang: en
 ref: el_fantasma
