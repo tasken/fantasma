@@ -1,84 +1,84 @@
 @import url(//fonts.googleapis.com/css?family=Roboto+Mono:400,400italic,700,700italic);
 
 html {
-	color: #777;
-	font-family: 'Roboto Mono', monospace;
-	background-color: ghostwhite;
-	font-size: 13px;
+    color: #777;
+    font-family: 'Roboto Mono', monospace;
+    background-color: ghostwhite;
+    font-size: 13px;
 }
 
 body.fixed {
-	overflow: hidden;
-	position: fixed;
+    overflow: hidden;
+    position: fixed;
 }
 
 #menu a.img {
-	padding: 0;
+    padding: 0;
 }
 
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
-	background: initial;
+    background: initial;
 }
 
 .header {
-	margin: 0 auto;
-	max-width: 800px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 h1:after {
-	content: " ";
-	display: block;
-	width: 2rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	border-bottom: 4px solid #333;
+    content: " ";
+    display: block;
+    width: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid #333;
 }
 
 p.subtle {
-	color: lightgray;
+    color: lightgray;
 }
 
 .content > .pure-g {
-	margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .content .pure-g + p,
 .lang-list {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 p {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .en:lang(en),
 .es:lang(es) {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .menu-footer {
-	margin: 2.5em 0 .6em .6em;
-	bottom: 1em;
+    margin: 2.5em 0 .6em .6em;
+    bottom: 1em;
 }
 
 @media (max-width: 48em) {
 
-	#layout.active #main {
-		opacity: .2;
-	}
+    #layout.active #main {
+        opacity: .2;
+    }
 
 }
 
 .pure-g.gutters {
-	margin: -.5em;
+    margin: -.5em;
 }
 
 .pure-g.gutters > [class *=pure-u] {
-	box-sizing: border-box;
-	padding: .5em;
+    box-sizing: border-box;
+    padding: .5em;
 }
 
 .pure-img {
-	width: 100%;
+    width: 100%;
 }

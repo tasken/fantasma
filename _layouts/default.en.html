@@ -3,31 +3,31 @@
 
 {% include head.html %}
 
-	<body>
-		<div id="layout">
+    <body>
+        <div id="layout">
 
-		{% include menu.html %}
+        {% include menu.html %}
 
-			<div id="main">
-				<div class="header">
-					<h1>{{ page.title }}</h1>
-					{% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
-				</div>
-				<div class="content">
+            <div id="main">
+                <div class="header">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
+                </div>
+                <div class="content">
 
-					{{ content }}
+                    {{ content }}
 
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
 
-		{% include js.html %}
+        {% include js.html %}
 
-		{% if page.galeria == "si" %}
-			{% include blueimp-gallery.html %}
-		{% endif %}
+        {% if page.galeria == "si" %}
+            {% include blueimp-gallery.html %}
+        {% endif %}
 
-		{% comment %}	{% include google_analytics.html %} {% endcomment %}
+        {% comment %}    {% include google_analytics.html %} {% endcomment %}
 
-	</body>
+    </body>
 </html>
